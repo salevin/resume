@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1493427196 "resume.xdv" "resume.pdf" "resume" 1493427196
-  "resume.xdv" 1493427195 31404 ac11c458427cd0866598ec3f4d9a6255 "xelatex"
+["xdvipdfmx"] 1495058946 "resume.xdv" "resume.pdf" "resume" 1495058947
+  "resume.xdv" 1495058936 31384 15f3a6c6fc30e69b6e3951fc28c737f4 "xelatex"
   (generated)
   "resume.pdf"
-["xelatex"] 1493427193 "resume.tex" "resume.xdv" "resume" 1493427196
+["xelatex"] 1495058934 "resume.tex" "resume.xdv" "resume" 1495058947
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1492575644 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1492575648 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1492575650 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -146,17 +146,17 @@
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1492741215 4105402 3453ef0ea2a3dd04b46540abeb8f59ce ""
   "awesome-cv.cls" 1492887978 25527 cbae9276a7e25d926f7a9c1ec839566a ""
   "fontawesome.sty" 1492887978 98046 7347fb084abf1308033c4d26f24f7a42 ""
-  "resume.aux" 1493427195 665 82c456479ed516bc5a94b04c48282691 ""
-  "resume.out" 1493427195 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.aux" 1495058936 665 82c456479ed516bc5a94b04c48282691 ""
+  "resume.out" 1495058936 0 d41d8cd98f00b204e9800998ecf8427e ""
   "resume.tex" 1493427192 3366 21133656069ca1219cfcf9412244abec ""
-  "resume/education.tex" 1493427107 925 b15586cc19b3b961d9307206478a42f2 ""
+  "resume/education.tex" 1495058911 925 b3dfe38d50180ccafb02a48d79e89102 ""
   "resume/experience.tex" 1493426766 1262 d58047cd2e14f2d2e9e04db17b2e0768 ""
   "resume/honors.tex" 1493421728 1137 8c554129c5bddeff3ccc12107f433fe5 ""
   "resume/projects.tex" 1493424372 1679 f87490de4fcb3d34d9e7124101cffe81 ""
   "resume/skills.tex" 1493426118 727 2f9ca92a399eb7c6c51a8fc146a46fda ""
   "resume/summary.tex" 1493423645 789 8f3a3f1874a7ed8d9df4ad25ecce406d ""
   (generated)
-  "resume.aux"
-  "resume.xdv"
   "resume.log"
+  "resume.xdv"
+  "resume.aux"
   "resume.out"
