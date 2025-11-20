@@ -16,28 +16,31 @@
     {January 2019 - June 2025} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-          \item {\bfseries Data Architecture Team}
-          \vspace{2em}
+          \item {\bfseries Feature Platform Team}
+          \vspace{1.5em}
           \begin{cvitems} % Description(s) of tasks/responsibilities
-          \item {Built and scaled Vertex Feature Store integrations, including online stores, registries, and monitoring APIs, enabling production ML workflows across multiple domains.}
-          \item {Designed and optimized Dataflow pipelines (feature deletion, fast batch ingestion, containerized SMB exports) improving reliability and reducing processing latency.}
-          \item {Automated Airflow workflows with custom DAGs, retries, and alerting, improving data pipeline stability and reducing operational overhead.}
-          \item {Developed Terraform/Terragrunt infrastructure for Vertex and Composer, streamlining environment provisioning and access control.}
-          \item {Enhanced observability and reliability by adding monitoring, circuit breakers, and Slack alerting, reducing downtime and improving incident response.}
-          \item {Contributed to data platform libraries and services (Alchemy, Lightspeed, IDL, lineage tools) supporting large-scale recommendation and finance data systems.}
-          \item {Improved CI/CD pipelines with validation pipelines, CCI fixes, and automated testing, accelerating deployment velocity and reducing failures.}
+          \item {Lead flex template migration of critical dataflow pipelines ingesting TBs of feature data for 140 million users on daily or less cadence.}
+          \item {Proposed, designed and implemented a new composer environment for Airflow workflows. Improved data pipeline stability and reduced operational overhead.}
+          \item {Developed new Terraform/Terragrunt infrastructure for Vertex, Composer and other GCS resources. Reduced reliance on manual control panel changes for critical infra.}
+          \item {Designed and implemented a new safe fact deletion flow and pipeline. Allowing quick response to data incidents.}
+          \end{cvitems}
+          \vspace{1em}
+          \item {\bfseries Data Bridge Team}
+          \vspace{1.5em}
+          \begin{cvitems} % Description(s) of tasks/responsibilities
+              \item {Helped design and build edge services and GCP infrastructure allowing Intuit to start sharing data with CK after acquisition.}
+              \item {Scaled for peak 3.5k RPS, matching 50 million CK members from a total of 170 million intuit members continuously shared over the bridge.}
           \end{cvitems}
           \vspace{1em}
           \item {\bfseries Credit Karma Money Team}
-          \vspace{2em}
+          \vspace{1.5em}
           \begin{cvitems} % Description(s) of tasks/responsibilities
-              \item {Designed and implemented offline networth tracking using event topic subscription service.}
-              \item {Added account value fallbacks, adding data consistency.}
-              \item {Built data quality and observability metrics and dashboards.}
+              \item {Designed and implemented offline networth tracking, peak 600 RPS of mint data.}
+              \item {Worked with product teams to design user total networth logic with fallbacks.}
           \end{cvitems}
           \vspace{1em}
           \item {\bfseries Offer Creation Platform Team}
-          \vspace{2em}
+          \vspace{1.5em}
           \begin{cvitems} % Description(s) of tasks/responsibilities
               \item {Built and maintained a complex react app for creating, modifying, and viewing credit cards and offers shown within Credit Karma.}
               \item {Worked on a graphql gateway for handling changes to these offers and routing to the correct services.}

@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1763357981.82378 "resume.xdv" "resume.pdf" "resume" 1763357982.08946 0
-  "resume.xdv" 1763357981.79277 41228 6683d46ed54c9df6ad19a2fefeff0640 "xelatex"
+["xdvipdfmx"] 1763670687.29917 "resume.xdv" "resume.pdf" "resume" 1763670687.48797 0
+  "resume.xdv" 1763670687.26436 37224 2788ea0bd3025621bc3d5f24c5f4b775 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1763357980.39114 "resume.tex" "resume.xdv" "resume" 1763357982.08854 0
+["xelatex"] 1763670685.7423 "resume.tex" "resume.xdv" "resume" 1763670687.48705 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -96,6 +96,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty" 1738182759 5275 0d62fb62162c7ab056e941ef18c5076d ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty" 1738182759 5525 9dced5929f36b19fa837947f5175b331 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo" 1738182759 8464 e73911cdcc738e82d6adccd28e654bb1 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty" 1738182759 2846 e26604d3d895e65d874c07f30c291f3f ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def" 1738182759 8090 bcb38b4f148e75e16d2c33225dbca53b ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def" 1702241854 5654 f5f3b5a1e60310c5a2ac1fad700b131a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty" 1702241854 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
@@ -146,6 +147,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1687466457 10085 3dececaeed388e31285c366e124c0c4e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/roboto/roboto.sty" 1662929632 14933 e21845ed1768884137a412dc322ec384 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty" 1670275497 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty" 1587936753 6172 8007ee7cf6262667ed58bbed36a42c35 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex" 1729629551 83599 50e7ac6ad41eaf61a7736beda9e3416b ""
@@ -168,12 +170,12 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "awesome-cv.cls" 1763357980.35038 30546 c73e8e4a5a6994119e4f3ce27a712276 ""
-  "resume.aux" 1763357981.78917 72 49953267bd44a605718cb5e0eb508bfe "xelatex"
-  "resume.tex" 1762818972.31244 3408 1ba8c70f703258c8380854c9abe91807 ""
+  "awesome-cv.cls" 1763362304.10975 30704 820c7e1a9473e2b9737a113af10e55a7 ""
+  "resume.aux" 1763670687.26202 72 49953267bd44a605718cb5e0eb508bfe "xelatex"
+  "resume.tex" 1763358591.75863 3402 5aa03e951becf3b65dc57f9ac86bf8e8 ""
   "resume/education.tex" 1763355339.1255 874 5d758987bed6ac0d9680d1bff9063402 ""
-  "resume/experience.tex" 1763347566.3118 4583 50d83b83e33349982d2de48913e76d58 ""
-  "resume/summary.tex" 1763357804.01119 695 74210bc3d892528a3c598d3c61c2fb7d ""
+  "resume/experience.tex" 1763670684.61161 4471 336925ae6454789336cfa3e11a4ebc58 ""
+  "resume/summary.tex" 1763359835.24553 706 edeacf8d84acfcbc02e87c2d14aa410d ""
   (generated)
   "resume.aux"
   "resume.log"
