@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1763696580.85872 "resume.xdv" "resume.pdf" "resume" 1763696581.05342 0
+["xdvipdfmx"] 1763755924.90243 "resume.xdv" "resume.pdf" "resume" 1763755925.13677 0
   "resume.xdv" 1763696580.82259 37808 a670a9b0820dfca7b8587ea414043cd8 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1763696579.349 "resume.tex" "resume.xdv" "resume" 1763696581.0525 0
+["xelatex"] 1763696579.349 "resume.tex" "resume.xdv" "resume" 1763755925.13579 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
