@@ -1,0 +1,57 @@
+name: Build Resumes
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup TeX Live
+      uses: texyy/action-setup-texlive@v1
+      with:
+        packages: |
+          collection-fontsrecommended
+          xetex
+          latexmk
+        scheme: full
+      
+    - name: Install fonts
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y fonts-liberation fonts-dejavu-core
+      
+    - name: Build startup resume
+      working-directory: resume-2025
+      run: |
+        xelatex resume-startup.tex
+        xelatex resume-startup.tex
+      
+    - name: Build data engineering resume
+      working-directory: resume-2025
+      run: |
+        xelatex resume-data-engineering.tex
+        xelatex resume-data-engineering.tex
+      
+    - name: Upload startup resume artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: resume-startup
+        path: resume-2025/resume-startup.pdf
+        retention-days: 30
+      
+    - name: Upload data engineering resume artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: resume-data-engineering
+        path: resume-2025/resume-data-engineering.pdf
+        retention-days: 30
+
