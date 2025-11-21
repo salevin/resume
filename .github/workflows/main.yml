@@ -17,13 +17,13 @@ jobs:
       run: make
 
     - name: Upload startup resume
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: resume-startup
         path: resume-2025/resume-startup.pdf
     
     - name: Upload data engineering resume
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: resume-data-engineering
         path: resume-2025/resume-data-engineering.pdf
