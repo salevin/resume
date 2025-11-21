@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1763761983.57173 "resume.xdv" "resume.pdf" "resume" 1763761983.7659 0
-  "resume.xdv" 1763761983.54166 37000 4309085561dc01b21b5de56027ee394d "xelatex"
+["xdvipdfmx"] 1763762097.89588 "resume.xdv" "resume.pdf" "resume" 1763762098.0951 0
+  "resume.xdv" 1763762097.86335 37000 f4cedc29ab894f99d7d1f8fcc2def570 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1763761981.98738 "resume.tex" "resume.xdv" "resume" 1763761983.76497 0
+["xelatex"] 1763762096.29503 "resume.tex" "resume.xdv" "resume" 1763762098.09417 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -171,10 +171,10 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "awesome-cv.cls" 1763696577.6625 30703 a956266174420ac6a3a9773ec80e7e6e ""
-  "resume.aux" 1763761983.5378 72 49953267bd44a605718cb5e0eb508bfe "xelatex"
+  "resume.aux" 1763762097.86285 72 49953267bd44a605718cb5e0eb508bfe "xelatex"
   "resume.tex" 1763358591.75863 3402 5aa03e951becf3b65dc57f9ac86bf8e8 ""
   "resume/education.tex" 1763355339.1255 874 5d758987bed6ac0d9680d1bff9063402 ""
-  "resume/experience.tex" 1763761976.8408 4427 f6200a1a7ddcea07228c16323c1fb412 ""
+  "resume/experience.tex" 1763762094.92058 4427 63ab1b0acc11a083bec545350920bf0c ""
   "resume/summary.tex" 1763359835.24553 706 edeacf8d84acfcbc02e87c2d14aa410d ""
   (generated)
   "resume.aux"
