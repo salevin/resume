@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1763672893.1384 "resume.xdv" "resume.pdf" "resume" 1763672893.35702 0
-  "resume.xdv" 1763672893.10153 37212 8433581ddc43b208cde0537476fa5667 "xelatex"
+["xdvipdfmx"] 1763696580.85872 "resume.xdv" "resume.pdf" "resume" 1763696581.05342 0
+  "resume.xdv" 1763696580.82259 37808 a670a9b0820dfca7b8587ea414043cd8 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1763672891.47402 "resume.tex" "resume.xdv" "resume" 1763672893.35612 0
+["xelatex"] 1763696579.349 "resume.tex" "resume.xdv" "resume" 1763696581.0525 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -170,11 +170,11 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "awesome-cv.cls" 1763362304.10975 30704 820c7e1a9473e2b9737a113af10e55a7 ""
-  "resume.aux" 1763672893.09754 72 49953267bd44a605718cb5e0eb508bfe "xelatex"
+  "awesome-cv.cls" 1763696577.6625 30703 a956266174420ac6a3a9773ec80e7e6e ""
+  "resume.aux" 1763696580.81899 72 49953267bd44a605718cb5e0eb508bfe "xelatex"
   "resume.tex" 1763358591.75863 3402 5aa03e951becf3b65dc57f9ac86bf8e8 ""
   "resume/education.tex" 1763355339.1255 874 5d758987bed6ac0d9680d1bff9063402 ""
-  "resume/experience.tex" 1763672890.94711 4470 226a573dc356ddc5b45fa9cdfd9c3790 ""
+  "resume/experience.tex" 1763696489.70712 4530 024830e73d3cff9c15760e29c4d8ad48 ""
   "resume/summary.tex" 1763359835.24553 706 edeacf8d84acfcbc02e87c2d14aa410d ""
   (generated)
   "resume.aux"
