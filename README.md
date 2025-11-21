@@ -1,126 +1,103 @@
-<h1 align="center">
-  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
-    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
-  </a>
-  <br />
-  Awesome CV
-</h1>
+# Resume
 
-<p align="center">
-  LaTeX template for your outstanding job application
-</p>
+Personal resume repository for Samuel Levin built with LaTeX using the [Awesome CV](https://github.com/posquit0/Awesome-CV) template.
 
-<div align="center">
-  <a href="https://www.paypal.me/posquit0">
-    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
-  </a>
-  <a href="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml">
-    <img alt="GitHub Actions" src="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml/badge.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
-    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
-    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
-  </a>
-</div>
+## Overview
 
-<br />
+This repository contains multiple resume variants tailored for different types of opportunities:
 
-## What is Awesome CV?
+- **Startup Resume** (`resume-startup.tex`) - Optimized for startup positions
+- **Data Engineering Resume** (`resume-data-engineering.tex`) - Focused on data engineering roles
+- **Standard Resume** (`resume.tex`) - General-purpose resume
 
-**Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+All resume variants are located in the `resume-2025/` directory and share common content files in `resume-2025/resume/`.
 
+## Project Structure
 
-## Donate
-
-Please help keep this project alive! Donations are welcome and will go towards further development of this project.
-
-    PayPal: paypal.me/posquit0
-
-*Thank you for your support!*
-
-## Preview
-
-#### Résumé
-
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
-
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
-
-#### Cover Letter
-
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
-
-| Without Sections | With Sections |
-|:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
-
-
-## Quick Start
-
-* [**Edit Résumé on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv/tvmzpvdjfqxp)
-* [**Edit Cover Letter on OverLeaf.com**](https://www.overleaf.com/latex/templates/awesome-cv-cover-letter/pfzzjspkthbk)
-
-**_Note:_ Above services do not guarantee up-to-date source code of Awesome CV**
-
-
-## How to Use
-
-#### Requirements
-
-A full TeX distribution is assumed.  [Various distributions for different operating systems (Windows, Mac, \*nix) are available](http://tex.stackexchange.com/q/55437) but TeX Live is recommended.
-You can [install TeX from upstream](https://tex.stackexchange.com/q/1092) (recommended; most up-to-date) or use `sudo apt-get install texlive-full` if you really want that.  (It's generally a few years behind.)
-
-If you don't want to install the dependencies on your system, this can also be obtained via [Docker](https://docker.com).
-
-#### Usage
-
-At a command prompt, run
-
-```bash
-xelatex {your-cv}.tex
+```
+resume-2025/
+├── resume-startup.tex          # Startup-focused resume
+├── resume-data-engineering.tex # Data engineering resume
+├── resume.tex                  # Standard resume
+├── awesome-cv.cls              # LaTeX class file
+├── fonts/                      # Custom fonts
+└── resume/                     # Shared content modules
+    ├── summary.tex
+    ├── summary-data-engineering.tex
+    ├── experience.tex
+    └── education.tex
 ```
 
-Or using docker:
+## Building the Resumes
+
+### Prerequisites
+
+A full TeX distribution is required. The following are recommended:
+
+- **macOS**: Install MacTeX via `brew install --cask mactex` or download from [MacTeX website](https://www.tug.org/mactex/)
+- **Linux**: Install TeX Live via `sudo apt-get install texlive-full` or your distribution's package manager
+- **Windows**: Install MiKTeX or TeX Live from [TeX Live website](https://www.tug.org/texlive/)
+
+Alternatively, you can use [Docker](https://www.docker.com/) to avoid local installation:
 
 ```bash
 docker run --rm --user $(id -u):$(id -g) -i -w "/doc" -v "$PWD":/doc texlive/texlive:latest make
 ```
 
-In either case, this should result in the creation of ``{your-cv}.pdf``
+### Build Commands
 
+Build all resumes:
+```bash
+make
+```
 
-## Credit
+Build specific resume variants:
+```bash
+make build-startup           # Build startup resume only
+make build-data-engineering  # Build data engineering resume only
+```
 
-[**LaTeX**](https://www.latex-project.org) is a fantastic typesetting program that a lot of people use these days, especially the math and computer science people in academia.
+The compiled PDFs will be generated in the `resume-2025/` directory.
 
-[**FontAwesome6 LaTeX Package**](https://github.com/braniii/fontawesome) is a LaTeX package that provides access to the [Font Awesome 6](https://fontawesome.com/v6/icons) icon set.
+### Clean Build Artifacts
 
-[**Roboto**](https://github.com/google/roboto) is the default font on Android and ChromeOS, and the recommended font for Google’s visual language, Material Design.
+```bash
+make clean      # Remove auxiliary files (keeps PDFs)
+make clean-all  # Remove all build artifacts including PDFs
+```
 
-[**Source Sans Pro**](https://github.com/adobe-fonts/source-sans-pro) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments.
+## Automated Builds
 
+This repository uses GitHub Actions to automatically compile PDFs on every push. The generated PDFs are available as artifacts in the Actions workflow.
 
-## Contact
+## Customization
 
-You are free to take my `.tex` file and modify it to create your own resume. Please don't use my resume for anything else without my permission, though!
+### Editing Content
 
-If you have any questions, feel free to join me at [`#posquit0` on Freenode](irc://irc.freenode.net/posquit0) and ask away. Click [here](https://kiwiirc.com/client/irc.freenode.net/posquit0) to connect.
+Resume content is modularized into separate files:
 
-Good luck!
+- `resume/summary.tex` - Professional summary (general)
+- `resume/summary-data-engineering.tex` - Data engineering-specific summary
+- `resume/experience.tex` - Work experience
+- `resume/education.tex` - Education background
 
+### Creating New Variants
 
-## Maintainers
-- [posquit0](https://github.com/posquit0)
-- [OJFord](https://github.com/OJFord)
+To create a new resume variant:
 
+1. Copy an existing `.tex` file (e.g., `resume-startup.tex`)
+2. Modify the imports to use the appropriate summary file
+3. Update the Makefile to include the new build target
+4. Update the GitHub Actions workflow if you want it built automatically
 
-## See Also
+### Styling
 
-* [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself.
+The resume uses the Awesome CV template with custom fonts located in the `fonts/` directory. To modify styling, edit `awesome-cv.cls` or adjust the color scheme in the main `.tex` files.
+
+## License
+
+This resume is based on the [Awesome CV template](https://github.com/posquit0/Awesome-CV), which is licensed under CC BY-SA 4.0.
+
+---
+
+**Note**: This is a personal resume repository. Feel free to fork and adapt it for your own use, but please don't copy the content without permission.
